@@ -1,170 +1,267 @@
 export type Language = "pt" | "en";
 
 export const translationData = {
-  // Nav
+  // Navigation
   nav_home: { pt: "Início", en: "Home" },
-  nav_about: { pt: "Sobre", en: "About" },
-  nav_early: { pt: "Ensino Infantil", en: "Early Education" },
-  nav_adult: { pt: "Ensino Adultos", en: "Adult Education" },
-  nav_gallery: { pt: "Galeria", en: "Gallery" },
-  nav_enrollment: { pt: "Agendar Inscrição", en: "Enrollment" },
-  nav_contact: { pt: "Contato", en: "Contact" },
+  nav_about: { pt: "O Colégio", en: "About" },
+  nav_academics: { pt: "Ensino", en: "Academics" },
+  nav_school_life: { pt: "Vida Escolar", en: "School Life" },
+  nav_admissions: { pt: "Admissões", en: "Admissions" },
+  nav_contact: { pt: "Contacto", en: "Contact" },
+
+  // Academics Dropdown / Submenu
+  nav_sub_creche: { pt: "Creche & Jardim de Infância", en: "Creche & Kindergarten" },
+  nav_sub_hybrid: { pt: "Ensino Nacional Híbrido", en: "Hybrid National Education" },
+  nav_sub_national: { pt: "Ensino Nacional Geral", en: "General National Education" },
+  nav_sub_cambridge: { pt: "Currículo Cambridge", en: "Cambridge Curriculum" },
 
   // Hero
   hero_title: {
-    pt: "Colégio Enko Sekeleka",
-    en: "Enko Sekeleka School",
+    pt: "Colégio Ekosekeleka – Do Centro Infantil ao Secundário com Padrão Internacional",
+    en: "Colégio Ekosekeleka – From Kindergarten to Secondary with International Standards",
   },
   hero_subtitle: {
-    pt: "Formando o futuro com excelência educacional em Vilankulo. Ensino infantil e educação para adultos num ambiente acolhedor e inovador.",
-    en: "Shaping the future with educational excellence in Vilankulo. Early childhood education and adult learning in a welcoming, innovative environment.",
+    pt: "Formação de excelência em Vilankulo através dos sistemas Nacional e Cambridge International.",
+    en: "Excellence in education in Vilankulo through both National and Cambridge International systems.",
   },
-  hero_cta_enroll: { pt: "Agendar Inscrição", en: "Schedule Enrollment" },
-  hero_cta_whatsapp: { pt: "Falar no WhatsApp", en: "WhatsApp Contact" },
+  hero_cta_enroll: { pt: "Iniciar Inscrição", en: "Start Enrollment" },
+  hero_cta_whatsapp: { pt: "Agendar Visita", en: "Schedule Visit" },
 
-  // About
-  about_title: { pt: "Sobre a Escola", en: "About the School" },
-  about_history_title: { pt: "Nossa História", en: "Our History" },
-  about_history: {
-    pt: "O Colégio Enko Sekeleka nasceu do sonho de transformar a educação em Vilankulo. Com anos de dedicação, construímos um espaço onde crianças e adultos encontram oportunidades reais de crescimento e aprendizagem.",
-    en: "Enko Sekeleka School was born from the dream of transforming education in Vilankulo. With years of dedication, we have built a space where children and adults find real opportunities for growth and learning.",
-  },
-  about_mission_title: { pt: "Missão", en: "Mission" },
-  about_mission: {
-    pt: "Proporcionar educação de qualidade, acessível e inclusiva, formando cidadãos preparados para os desafios do futuro.",
-    en: "To provide quality, accessible and inclusive education, shaping citizens prepared for the challenges of the future.",
-  },
-  about_values_title: { pt: "Valores", en: "Values" },
-  about_values: {
-    pt: "Excelência, Respeito, Inclusão, Inovação e Compromisso com a comunidade.",
-    en: "Excellence, Respect, Inclusion, Innovation and Commitment to the community.",
-  },
-  about_commitment_title: { pt: "Compromisso Educacional", en: "Educational Commitment" },
-  about_commitment: {
-    pt: "Investimos continuamente na formação dos nossos professores e na modernização das nossas instalações para garantir o melhor ambiente de aprendizagem.",
-    en: "We continuously invest in teacher training and modernization of our facilities to ensure the best learning environment.",
+  // About School (O Colégio)
+  about_school_title: { pt: "O Colégio Enko Sekeleka", en: "Enko Sekeleka School" },
+  about_location_title: { pt: "Localização", en: "Location" },
+  about_location_desc: {
+    pt: "Cidade de Vilankulo, Bairro 19 de Outubro, Complexo Residencial de Nhamacunda",
+    en: "Vilankulo City, Bairro 19 de Outubro, Nhamacunda Residential Complex"
   },
 
-  // Early Education
-  early_title: { pt: "Ensino Infantil", en: "Early Childhood Education" },
-  early_subtitle: {
-    pt: "Um ambiente seguro e estimulante para os primeiros passos da aprendizagem.",
-    en: "A safe and stimulating environment for the first steps of learning.",
+  about_history_title: { pt: "A Nossa História", en: "Our History" },
+  about_history_2016_title: { pt: "2016 – Fundação", en: "2016 – Foundation" },
+  about_history_2016_desc: { pt: "Início com o Centro Infantil Pequeno, focado nos primeiros anos de vida.", en: "Started with the 'Pequeno' Child Center, focused on the early years." },
+  about_history_2017_title: { pt: "2017 – Expansão Académica", en: "2017 – Academic Expansion" },
+  about_history_2017_desc: {
+    pt: "Introdução do Ensino Primário (SNE) e início do Ensino Secundário Cambridge, marcando a nossa internacionalização.",
+    en: "Introduction of Primary Education (SNE) and start of Cambridge Secondary Education, marking our internationalization."
   },
-  early_cognitive: { pt: "Desenvolvimento Cognitivo", en: "Cognitive Development" },
-  early_cognitive_desc: {
-    pt: "Atividades pedagógicas que estimulam o raciocínio, a criatividade e a curiosidade natural da criança.",
-    en: "Pedagogical activities that stimulate reasoning, creativity and the child's natural curiosity.",
-  },
-  early_safe: { pt: "Ambiente Seguro", en: "Safe Environment" },
-  early_safe_desc: {
-    pt: "Instalações adaptadas e supervisionadas para garantir o bem-estar e a segurança de cada criança.",
-    en: "Adapted and supervised facilities to ensure the well-being and safety of every child.",
-  },
-  early_method: { pt: "Metodologia Ativa", en: "Active Methodology" },
-  early_method_desc: {
-    pt: "Aprendizagem através do brincar, da exploração e da interação social entre as crianças.",
-    en: "Learning through play, exploration and social interaction among children.",
-  },
-  early_holistic: { pt: "Formação Integral", en: "Holistic Education" },
-  early_holistic_desc: {
-    pt: "Desenvolvimento emocional, social e físico além do académico, formando crianças completas.",
-    en: "Emotional, social and physical development beyond academics, shaping well-rounded children.",
+  about_history_2020_title: { pt: "2020 – Consolidação", en: "2020 – Consolidation" },
+  about_history_2020_desc: {
+    pt: "Introdução do Ensino Secundário Geral do Sistema Nacional, oferecendo um percurso completo.",
+    en: "Introduction of General Secondary Education from the National System, offering a complete academic path."
   },
 
-  // Adult Education
-  adult_title: { pt: "Ensino para Adultos", en: "Adult Education" },
-  adult_subtitle: {
-    pt: "Nunca é tarde para aprender. Oferecemos oportunidades de educação continuada para adultos.",
-    en: "It's never too late to learn. We offer continuing education opportunities for adults.",
-  },
-  adult_continuing: { pt: "Educação Continuada", en: "Continuing Education" },
-  adult_continuing_desc: {
-    pt: "Programas flexíveis adaptados à realidade de quem trabalha e deseja continuar a estudar.",
-    en: "Flexible programs adapted to the reality of those who work and wish to continue studying.",
-  },
-  adult_inclusion: { pt: "Inclusão", en: "Inclusion" },
-  adult_inclusion_desc: {
-    pt: "Acolhemos todos os adultos, independentemente do seu percurso anterior, com respeito e apoio.",
-    en: "We welcome all adults, regardless of their previous path, with respect and support.",
-  },
-  adult_growth: { pt: "Crescimento Profissional", en: "Professional Growth" },
-  adult_growth_desc: {
-    pt: "Competências práticas que abrem portas no mercado de trabalho e impulsionam carreiras.",
-    en: "Practical skills that open doors in the job market and boost careers.",
+  about_admin_title: { pt: "Estrutura Administrativa", en: "Administrative Structure" },
+  about_admin_role_dg: { pt: "Directora Geral", en: "General Director" },
+  about_admin_name_dg: { pt: "Suzana Rita Jeremias", en: "Suzana Rita Jeremias" },
+  about_admin_role_dag: { pt: "Directora Adjunta", en: "Deputy Director" },
+  about_admin_name_dag: { pt: "Maria Constancia Nhalivilo", en: "Maria Constancia Nhalivilo" },
+  about_admin_role_dp_sne: { pt: "Director Pedagógico SNE", en: "Pedagogical Director SNE" },
+  about_admin_name_dp_sne: { pt: "Lucas Zacarias Vilanculo", en: "Lucas Zacarias Vilanculo" },
+  about_admin_role_dp_cam: { pt: "Director Pedagógico Cambridge", en: "Pedagogical Director Cambridge" },
+  about_admin_name_dp_cam: { pt: "Duncan Tafara Nheta", en: "Duncan Tafara Nheta" },
+  about_admin_role_coord: { pt: "Coordenadora Secundário Geral", en: "General Secondary Coordinator" },
+  about_admin_name_coord: { pt: "Harfa Mahomed Hanif", en: "Harfa Mahomed Hanif" },
+  about_admin_role_gestor: { pt: "Gestor Administrativo", en: "Administrative Manager" },
+  about_admin_name_gestor: { pt: "Mussa Fraudino Ibraimo", en: "Mussa Fraudino Ibraimo" },
+
+  about_partners_title: { pt: "Parcerias e Comunidade", en: "Partnerships & Community" },
+  about_partners_desc: {
+    pt: "Temos um orgulho especial na nossa relação com a comunidade local e com os colaboradores da Sasol, reforçando um ambiente de diversidade e multiculturalidade única em Vilankulo.",
+    en: "We take special pride in our relationship with the local community and Sasol employees, reinforcing a unique environment of diversity and multiculturalism in Vilankulo."
   },
 
-  // Gallery
-  gallery_title: { pt: "Galeria", en: "Gallery" },
+  // Academics (Ensino)
+  academics_title: { pt: "Oferta Académica", en: "Academic Offering" },
+
+  academics_creche_title: { pt: "Creche & Jardim de Infância", en: "Creche & Kindergarten" },
+  academics_creche_info: { pt: "Dos 6 meses aos 5 anos", en: "From 6 months to 5 years old" },
+  academics_creche_desc: {
+    pt: "Ambiente lúdico e seguro. Introdução à língua Inglesa a partir dos 3 anos e diversas atividades extracurriculares.",
+    en: "Playful and safe environment. Introduction to English from age 3 and various extracurricular activities."
+  },
+
+  academics_hybrid_title: { pt: "Ensino Nacional Híbrido (1ª à 6ª Classe)", en: "Hybrid National Education (Grade 1–6)" },
+  academics_hybrid_desc: {
+    pt: "Base sólida no Sistema Nacional (SNE) com integração progressiva de programas Cambridge e formação bilingue.",
+    en: "Solid foundation in the National System (SNE) with progressive integration of Cambridge programs and bilingual training."
+  },
+
+  academics_national_title: { pt: "Ensino Nacional Geral (7ª à 12ª Classe)", en: "General National Education (Grade 7–12)" },
+  academics_national_desc: {
+    pt: "Ciclo completo do Sistema Nacional de Educação com preparação rigorosa para os exames nacionais e vida académica superior.",
+    en: "Complete cycle of the National Education System with rigorous preparation for national exams and higher academic life."
+  },
+
+  academics_cambridge_title: { pt: "Ensino Cambridge (F1 a A Level 2)", en: "Cambridge Education (F1 to A Level 2)" },
+  academics_cambridge_desc: {
+    pt: "Currículo internacional completo com certificação reconhecida globalmente, preparando o aluno para universidades em qualquer parte do mundo.",
+    en: "Complete international curriculum with globally recognized certification, preparing students for universities anywhere in the world."
+  },
+
+  // School Life (Vida Escolar)
+  school_life_title: { pt: "Vida Escolar", en: "School Life" },
+  school_life_purpose_title: { pt: "Propósito Institucional", en: "Institutional Purpose" },
+  school_life_purpose_text: {
+    pt: "Educar para transformar. No Colégio Enko Sekeleka, o nosso compromisso é acolher a diversidade da nossa comunidade de Vilankulo e oferecer um percurso académico de rigor. O nosso objetivo é garantir que cada aluno, desde o Centro Infantil até ao Secundário (SNE ou Cambridge), adquira as ferramentas necessárias para construir um futuro de sucesso, sem fronteiras.",
+    en: "Educating to transform. At Enko Sekeleka School, our commitment is to welcome the diversity of our Vilankulo community and offer an academic path of rigor. Our goal is to ensure that every student, from the Child Center to Secondary (SNE or Cambridge), acquires the tools needed to build a successful future, without borders."
+  },
+  school_life_staff_title: { pt: "Qualidade do Corpo Docente", en: "Quality of the Teaching Staff" },
+  school_life_staff_desc: {
+    pt: "Professores com alta qualificação e experiência internacional, dominando tanto o SNE quanto o sistema Cambridge. Muitos dos nossos mentores são graduados em universidades de renome na Ásia e Europa.",
+    en: "Highly qualified teachers with international experience, mastering both SNE and the Cambridge system. Many of our mentors are graduates from renowned universities in Asia and Europe."
+  },
+
+  school_life_activities_extra: { pt: "Atividades Extra-curriculares", en: "Extra-curricular Activities" },
+  school_life_activity_sports: { pt: "Desporto Escolar", en: "School Sports" },
+  school_life_activity_taekwondo: { pt: "Tae Kwon Do", en: "Tae Kwon Do" },
+  school_life_activity_chess: { pt: "Xadrez", en: "Chess" },
+
+  school_life_activities_co: { pt: "Atividades Co-curriculares", en: "Co-curricular Activities" },
+  school_life_activity_english: { pt: "Inglês Intensivo", en: "Intensive English" },
+  school_life_activity_it: { pt: "Informática", en: "Information Technology" },
+  school_life_activity_music: { pt: "Educação Musical", en: "Music Education" },
+
+  // Admissions (Admissões)
+  admissions_title: { pt: "Processo de Admissão", en: "Admissions Process" },
+  admissions_desc: {
+    pt: "Bem-vindo ao início da jornada do seu educando. O nosso processo é transparente e estruturado por segmentos.",
+    en: "Welcome to the beginning of your student's journey. Our process is transparent and structured by segments."
+  },
+  admissions_step_1: { pt: "Consulta de Vagas", en: "Check Vacancies" },
+  admissions_step_2: { pt: "Entrevista Pedagógica", en: "Pedagogical Interview" },
+  admissions_step_3: { pt: "Documentação e Matrícula", en: "Documentation & Enrollment" },
+
+  // Home Revamp
+  home_intro_badge: { pt: "Bem-vindo ao Colégio Enko Sekeleka", en: "Welcome to Enko Sekeleka School" },
+  home_intro_title: { pt: "Transformando o Futuro em Vilankulo", en: "Transforming the Future in Vilankulo" },
+  home_intro_desc: { pt: "A nossa instituição é um pilar de excelência académica em Moçambique, oferecendo um ambiente multicultural e um currículo que prepara os alunos para os desafios globais.", en: "Our institution is a pillar of academic excellence in Mozambique, offering a multicultural environment and a curriculum that prepares students for global challenges." },
+  home_intro_cta: { pt: "Conheça a nossa história", en: "Discover our history" },
+  home_stat_approval_label: { pt: "Aprovação", en: "Approval" },
+  home_stat_curriculum_label: { pt: "Currículo", en: "Curriculum" },
+  home_stat_curriculum_val: { pt: "Dual", en: "Dual" },
+  home_stat_env_title: { pt: "Ambiente Multicultural", en: "Multicultural Environment" },
+  home_stat_env_desc: { pt: "Filhos de colaboradores Sasol e comunidade local", en: "Children of Sasol employees and local community" },
+  home_prog_title: { pt: "Excelência Académica em Todos os Níveis", en: "Academic Excellence at All Levels" },
+  home_prog_desc: { pt: "Do berçário ao Secundário, oferecemos um percurso educativo completo, bilingue e de padrão internacional.", en: "From nursery to Secondary, we offer a complete, bilingual and international standard educational pathway." },
+  home_prog_cta: { pt: "Ver Detalhes do Ensino", en: "View Education Details" },
+  home_teachers_asia: { pt: "Graduados na Ásia", en: "Asia Graduates" },
+  home_teachers_europe: { pt: "Graduados na Europa", en: "Europe Graduates" },
+  home_teachers_cambridge: { pt: "Especialistas Cambridge", en: "Cambridge Specialists" },
+
+  // Admissions (Enrollment)
+  enroll_process_title: { pt: "Junte-se à nossa comunidade escolar. Processo simplificado para Creche, Ensino Nacional e Cambridge.", en: "Join our school community. Simplified process for Creche, National and Cambridge education." },
+  enroll_step_1_title: { pt: "Candidatura", en: "Application" },
+  enroll_step_1_desc: { pt: "Preenchimento do formulário inicial.", en: "Filling out the initial form." },
+  enroll_step_2_title: { pt: "Entrevista", en: "Interview" },
+  enroll_step_2_desc: { pt: "Reunião presencial ou online com a coordenação.", en: "In-person or online meeting with coordination." },
+  enroll_step_3_title: { pt: "Matrícula", en: "Enrollment" },
+  enroll_step_3_desc: { pt: "Submissão de documentos e pagamento.", en: "Submission of documents and payment." },
+  enroll_form_section_1: { pt: "Informação do Guardião e Aluno", en: "Guardian and Student Information" },
+  enroll_form_submit: { pt: "Enviar Solicitação de Ingresso", en: "Submit Admission Request" },
+  enroll_form_msg_placeholder: { pt: "Alguma necessidade especial ou comentário?", en: "Any special needs or comments?" },
+  enroll_success_title: { pt: "Candidatura Submetida!", en: "Application Submitted!" },
+
+  // Contact
+  contact_intro: { pt: "Estamos à sua disposição para qualquer esclarecimento sobre o nosso colégio.", en: "We are at your disposal for any clarification about our school." },
+  contact_hours_title: { pt: "Horário", en: "Opening Hours" },
+  contact_hours_days: { pt: "Segunda - Sexta", en: "Monday - Friday" },
+  contact_form_subtitle: { pt: "Preencha os dados abaixo e entraremos em contacto brevemente.", en: "Fill in the details below and we will contact you shortly." },
+  contact_form_name_placeholder: { pt: "Seu nome completo", en: "Your full name" },
+  contact_form_msg_placeholder: { pt: "Como podemos ajudar?", en: "How can we help?" },
+  contact_form_submit: { pt: "Enviar Agora", en: "Send Now" },
+  contact_success_title: { pt: "Recebemos a sua mensagem", en: "Message received" },
+  contact_success_desc: { pt: "Entraremos em contacto brevemente.", en: "We will contact you shortly." },
+
+  // Academics Extra
+  academics_cambridge_focus_title: { pt: "Padrão Cambridge em todas as fases.", en: "Cambridge Standard in all phases." },
+  academics_cambridge_focus_desc: { pt: "Embora tenhamos o Sistema Nacional, a nossa cultura pedagógica é impregnada pelo rigor e metodologias Cambridge desde os primeiros anos do ensino primário.", en: "Although we have the National System, our pedagogical culture is impregnated by Cambridge rigor and methodologies since the first years of primary education." },
+  academics_thinking_process_title: { pt: "Thinking Process", en: "Thinking Process" },
+  academics_thinking_process_desc: { pt: "Raciocínio lógico e crítico em todas as disciplinas.", en: "Logical and critical reasoning in all subjects." },
+  academics_active_learning_title: { pt: "Active Learning", en: "Active Learning" },
+  academics_active_learning_desc: { pt: "O aluno como protagonista da sua aprendizagem.", en: "The student as the protagonist of their learning." },
+
+  // Program Features
+  prog_creche_f1: { pt: "Metodologia Lúdica", en: "Playful Methodology" },
+  prog_creche_f2: { pt: "Ambiente Seguro e Monitorado", en: "Safe and Monitored Environment" },
+  prog_creche_f3: { pt: "Introdução ao Inglês (3+ anos)", en: "Introduction to English (3+ years)" },
+  prog_creche_f4: { pt: "Desenvolvimento Psicomotor", en: "Psychomotor Development" },
+
+  prog_hybrid_f1: { pt: "Base no Currículo Nacional", en: "Basis in National Curriculum" },
+  prog_hybrid_f2: { pt: "Integração Cambridge Primary", en: "Cambridge Primary Integration" },
+  prog_hybrid_f3: { pt: "Formação Bilingue Progressiva", en: "Progressive Bilingual Education" },
+  prog_hybrid_f4: { pt: "Mentoria Individualizada", en: "Individualized Mentoring" },
+
+  prog_national_f1: { pt: "Sistema Nacional de Educação", en: "National Education System" },
+  prog_national_f2: { pt: "Preparação Exames Nacionais", en: "National Exam Preparation" },
+  prog_national_f3: { pt: "Laboratórios de Ciências", en: "Science Laboratories" },
+  prog_national_f4: { pt: "Orientação Vocacional", en: "Vocational Guidance" },
+
+  prog_cambridge_f1: { pt: "International Secondary (F1-A2)", en: "International Secondary (F1-A2)" },
+  prog_cambridge_f2: { pt: "Certificação Global", en: "Global Certification" },
+  prog_cambridge_f3: { pt: "Professores Internacionalmente Treinados", en: "Internationally Trained Teachers" },
+  prog_cambridge_f4: { pt: "Acesso a Universidades Globais", en: "Access to Global Universities" },
+
+  // School Life Extra
+  school_life_staff_badge: { pt: "Excelência Docente", en: "Teaching Excellence" },
+  school_life_staff_quote: { pt: "Focamos na mentoria e na formação contínua, garantindo que nossos graduados alcancem universidades de prestígio na Ásia e Europa.", en: "We focus on mentoring and continuous training, ensuring our graduates reach prestigious universities in Asia and Europe." },
+
+  // Gallery (Existing keys preserved or adapted)
+  gallery_title: { pt: "Galeria Institucional", en: "Institutional Gallery" },
   gallery_subtitle: {
-    pt: "Conheça os nossos espaços e o dia a dia do Colégio Enko Sekeleka.",
-    en: "Discover our spaces and daily life at Enko Sekeleka School.",
+    pt: "Ambientes de aprendizagem, infraestrutura e momentos marcantes da nossa comunidade.",
+    en: "Learning environments, infrastructure and landmark moments of our community.",
   },
+  gallery_view_details: { pt: "Ver Detalhes", en: "View Details" },
 
-  // CTA
-  cta_title: {
-    pt: "Garanta já a vaga do seu educando.",
-    en: "Secure your enrollment today.",
-  },
-  cta_subtitle: {
-    pt: "Inscrições abertas para ensino infantil e educação para adultos. Não perca esta oportunidade!",
-    en: "Enrollments open for early childhood and adult education. Don't miss this opportunity!",
-  },
-  cta_enroll: { pt: "Agendar Inscrição", en: "Schedule Enrollment" },
-  cta_whatsapp: { pt: "Falar no WhatsApp", en: "WhatsApp Contact" },
+  // Contact (Contacto)
+  contact_title_full: { pt: "Contacte-nos", en: "Contact Us" },
+  contact_info_title: { pt: "Canais de Atendimento", en: "Service Channels" },
+  contact_form_title: { pt: "Envie uma Mensagem", en: "Send a Message" },
+  contact_map_title: { pt: "Onde Estamos", en: "Where We Are" },
 
-  // Enrollment Form
-  enroll_title: { pt: "Agendar Inscrição", en: "Schedule Enrollment" },
-  enroll_subtitle: {
-    pt: "Preencha o formulário abaixo para agendar a inscrição do seu educando.",
-    en: "Fill out the form below to schedule your student's enrollment.",
-  },
+  // Enrollment (segmented program names)
+  enroll_program_creche: { pt: "Creche / Jardim de Infância", en: "Creche / Kindergarten" },
+  enroll_program_primary: { pt: "Ensino Nacional Híbrido (1ª-6ª)", en: "National Hybrid (1st-6th)" },
+  enroll_program_national: { pt: "Ensino Nacional Geral (7ª-12ª)", en: "General National (7th-12th)" },
+  enroll_program_cambridge: { pt: "Ensino Cambridge International", en: "Cambridge International" },
+
+  // Shared / UI
+  ui_read_more: { pt: "Ler Mais", en: "Read More" },
+  ui_back_to_home: { pt: "Voltar ao Início", en: "Back to Home" },
+  ui_send: { pt: "Enviar", en: "Send" },
+
+  // Existing Form Keys
   enroll_guardian: { pt: "Nome do Responsável", en: "Guardian Name" },
   enroll_student: { pt: "Nome do Aluno", en: "Student Name" },
   enroll_age: { pt: "Idade", en: "Age" },
-  enroll_program: { pt: "Curso Pretendido", en: "Program" },
-  enroll_program_child: { pt: "Ensino Infantil", en: "Early Childhood" },
-  enroll_program_adult: { pt: "Ensino para Adultos", en: "Adult Education" },
+  enroll_program: { pt: "Segmento de Ensino", en: "Education Segment" },
   enroll_phone: { pt: "Telefone", en: "Phone" },
   enroll_email: { pt: "Email", en: "Email" },
-  enroll_message: { pt: "Mensagem", en: "Message" },
-  enroll_submit: { pt: "Enviar Pedido", en: "Submit Enrollment Request" },
+  enroll_message: { pt: "Informações Adicionais", en: "Additional Information" },
+  enroll_submit: { pt: "Solicitar Vaga", en: "Request Enrollment" },
   enroll_success: {
-    pt: "O seu pedido de inscrição foi enviado com sucesso! Entraremos em contacto em breve.",
-    en: "Your enrollment request has been submitted successfully! We will contact you shortly.",
+    pt: "O seu pedido foi enviado com sucesso! A nossa secretaria entrará em contacto.",
+    en: "Your request has been submitted successfully! Our office will contact you shortly.",
   },
 
-  // Contact
-  contact_title: { pt: "Contato", en: "Contact" },
-  contact_subtitle: {
-    pt: "Entre em contacto connosco. Estamos aqui para ajudar!",
-    en: "Get in touch with us. We are here to help!",
+  // SEO
+  seo_title: {
+    pt: "Colégio Enko Sekeleka | Do Centro Infantil ao Secundário em Vilankulo",
+    en: "Enko Sekeleka School | From Kindergarten to Secondary in Vilankulo",
   },
-  contact_address: { pt: "Localização", en: "Location" },
-  contact_phone: { pt: "Telefone", en: "Phone" },
-  contact_name: { pt: "Nome", en: "Name" },
-  contact_email: { pt: "Email", en: "Email" },
-  contact_message: { pt: "Mensagem", en: "Message" },
-  contact_submit: { pt: "Enviar Mensagem", en: "Send Message" },
-  contact_success: {
-    pt: "Mensagem enviada com sucesso! Responderemos em breve.",
-    en: "Message sent successfully! We will respond shortly.",
+  seo_description: {
+    pt: "Instituição de referência em Vilankulo oferecendo Ensino Nacional e Cambridge International. Do berçário à 12ª classe com padrão internacional.",
+    en: "Leading institution in Vilankulo offering National and Cambridge International Education. From nursery to Grade 12 with international standards.",
   },
 
-  // Footer
-  footer_rights: {
-    pt: "Todos os direitos reservados.",
-    en: "All rights reserved.",
-  },
-  footer_links: { pt: "Links Rápidos", en: "Quick Links" },
-  footer_contact: { pt: "Contacto", en: "Contact" },
-  footer_social: { pt: "Redes Sociais", en: "Social Media" },
-
-  // WhatsApp
+  // Other Existing
   whatsapp_message: {
-    pt: "Olá, gostaria de obter mais informações sobre as inscrições.",
-    en: "Hello, I would like more information about enrollment.",
+    pt: "Olá, gostaria de saber mais sobre o processo de admissão no Colégio Enko Sekeleka.",
+    en: "Hello, I would like to know more about the admission process at Enko Sekeleka School.",
   },
+  footer_rights: { pt: "Todos os direitos reservados.", en: "All rights reserved." },
+  footer_links: { pt: "Navegação", en: "Navigation" },
+  footer_contact: { pt: "Endereço", en: "Address" },
+  footer_social: { pt: "Siga-nos", en: "Follow Us" },
 } as const;
 
 export type TranslationKey = keyof typeof translationData;

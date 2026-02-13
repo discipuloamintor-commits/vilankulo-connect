@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <img src={logo} alt="Enko Sekeleka" className="h-12 w-auto brightness-200" />
               <span className="text-xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Enko Sekeleka
+                Colégio Ekosekeleka
               </span>
             </div>
             <p className="text-sm opacity-70 leading-relaxed max-w-xs">
@@ -29,7 +29,8 @@ const Footer = () => {
             <div className="flex flex-col gap-2 text-sm opacity-80">
               <a href="/#about" className="hover:opacity-100 transition-opacity">{t("nav_about")}</a>
               <a href="/#early-education" className="hover:opacity-100 transition-opacity">{t("nav_early")}</a>
-              <a href="/#adult-education" className="hover:opacity-100 transition-opacity">{t("nav_adult")}</a>
+              <a href="/#education-system" className="hover:opacity-100 transition-opacity">{t("nav_grade_1_12")}</a>
+              <a href="/#cambridge" className="hover:opacity-100 transition-opacity">{t("nav_cambridge")}</a>
               <Link to="/enrollment" className="hover:opacity-100 transition-opacity">{t("nav_enrollment")}</Link>
               <Link to="/contact" className="hover:opacity-100 transition-opacity">{t("nav_contact")}</Link>
             </div>

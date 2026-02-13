@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import heroImg from "@/assets/school-1.jpeg";
+import heroImg from "@/assets/gallery/institucional-logo-alunos-colegio-ekosekeleka.jpg";
 
 const HeroSection = () => {
   const { t } = useLanguage();
@@ -21,12 +21,12 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-2xl text-background"
+          className="max-w-3xl text-background"
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight mb-6">
             {t("hero_title")}
           </h1>
-          <p className="text-lg sm:text-xl opacity-90 mb-8 leading-relaxed max-w-lg">
+          <p className="text-lg sm:text-2xl opacity-90 mb-10 leading-relaxed max-w-2xl font-medium">
             {t("hero_subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
