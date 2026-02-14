@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const schema = z.object({
   guardian: z.string().min(2),
@@ -39,6 +40,7 @@ const Enrollment = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO title={t("nav_admissions")} canonical="/enrollment" />
       <Header />
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4 max-w-2xl">

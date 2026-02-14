@@ -27,32 +27,37 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">{t("footer_links")}</h4>
             <div className="flex flex-col gap-2 text-sm opacity-80">
-              <a href="/#about" className="hover:opacity-100 transition-opacity">{t("nav_about")}</a>
-              <a href="/#early-education" className="hover:opacity-100 transition-opacity">{t("nav_early")}</a>
-              <a href="/#education-system" className="hover:opacity-100 transition-opacity">{t("nav_grade_1_12")}</a>
-              <a href="/#cambridge" className="hover:opacity-100 transition-opacity">{t("nav_cambridge")}</a>
-              <Link to="/enrollment" className="hover:opacity-100 transition-opacity">{t("nav_enrollment")}</Link>
+              <Link to="/about" className="hover:opacity-100 transition-opacity">{t("nav_about")}</Link>
+              <Link to="/academics" className="hover:opacity-100 transition-opacity">{t("nav_academics")}</Link>
+              <Link to="/gallery" className="hover:opacity-100 transition-opacity">{t("nav_gallery")}</Link>
+              <Link to="/enrollment" className="hover:opacity-100 transition-opacity">{t("nav_admissions")}</Link>
               <Link to="/contact" className="hover:opacity-100 transition-opacity">{t("nav_contact")}</Link>
             </div>
           </div>
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">{t("footer_contact")}</h4>
+            <h4 className="text-lg font-semibold">{t("footer_contact_title")}</h4>
             <div className="flex flex-col gap-3 text-sm opacity-80">
-              <div className="flex items-center gap-2">
-                <MapPin size={16} />
-                <span>Nhamucunda, Bairro 19 de Outubro, Vilankulo</span>
+              <div className="flex items-start gap-2">
+                <MapPin size={16} className="mt-1 shrink-0 text-primary" />
+                <span>{t("about_location_desc")}</span>
               </div>
               <div className="flex items-center gap-2">
-                <Phone size={16} />
-                <span>847 589 113 / 877 589 113</span>
+                <Phone size={16} className="text-primary" />
+                <span>+258 847 589 113 / 877 589 113</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-primary">{t("footer_email_label")}:</span>
+                <a href="mailto:vilanculo@ekoeducation.com" className="hover:text-primary transition-colors">
+                  vilanculo@ekoeducation.com
+                </a>
               </div>
               <a
                 href="https://facebook.com/colegioenkosekeleka"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:opacity-100 transition-opacity"
+                className="flex items-center gap-2 hover:text-primary transition-colors mt-2"
               >
                 <Facebook size={16} />
                 <span>Facebook</span>
@@ -61,8 +66,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-background/20 text-center text-sm opacity-60">
-          © {new Date().getFullYear()} Colégio Enko Sekeleka. {t("footer_rights")}
+        <div className="mt-10 pt-6 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-60">
+          <div>© {new Date().getFullYear()} Colégio Enko Sekeleka. {t("footer_rights")}</div>
+          <div>
+            Desenvolvido por{" "}
+            <a href="https://www.lgtecserv.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors font-bold">
+              LG TecServ
+            </a>
+          </div>
         </div>
       </div>
     </footer>

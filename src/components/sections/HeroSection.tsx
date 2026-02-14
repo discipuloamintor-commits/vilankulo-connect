@@ -12,7 +12,7 @@ const HeroSection = () => {
     <section id="hero" className="relative min-h-screen flex items-center pt-16">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img src={heroImg} alt="Colégio Enko Sekeleka - Escola em Vilankulo" className="w-full h-full object-cover" />
+        <img src={heroImg} alt="Estudantes do Colégio Enko Sekeleka em Vilankulo - Excelência em Educação" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/85 via-foreground/60 to-foreground/30" />
       </div>
 

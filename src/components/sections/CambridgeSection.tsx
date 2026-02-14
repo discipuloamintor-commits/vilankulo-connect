@@ -60,7 +60,7 @@ const CambridgeSection = () => {
                         >
                             <img
                                 src={cambridgeImg}
-                                alt="Cambridge International Curriculum"
+                                alt="Alunos do Colégio Enko Sekeleka em laboratório - Currículo Cambridge International"
                                 className="absolute inset-0 w-full h-full object-cover"
                             />
                             <div className="absolute inset-0 bg-gradient-to-l from-transparent to-foreground/20 lg:to-transparent" />

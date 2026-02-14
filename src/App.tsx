@@ -10,7 +10,9 @@ import Academics from "./pages/Academics";
 import SchoolLife from "./pages/SchoolLife";
 import Enrollment from "./pages/Enrollment";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -21,11 +23,14 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
             <Route path="/academics" element={<Academics />} />
             <Route path="/school-life" element={<SchoolLife />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/galeria" element={<Gallery />} />
             <Route path="/enrollment" element={<Enrollment />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />

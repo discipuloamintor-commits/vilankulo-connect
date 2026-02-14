@@ -2,8 +2,9 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import { Baby, BookOpen, GraduationCap, Globe, CheckCircle2 } from "lucide-react";
+import { Globe, CheckCircle2, Baby, BookOpen, GraduationCap } from "lucide-react";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 const Academics = () => {
     const { t } = useLanguage();
@@ -66,6 +67,7 @@ const Academics = () => {
 
     return (
         <div className="min-h-screen bg-background">
+            <SEO title={t("nav_academics")} canonical="/academics" />
             <Header />
             <main className="pt-24 pb-20">
                 <div className="container mx-auto px-4">

@@ -5,15 +5,33 @@ export const translationData = {
   nav_home: { pt: "Início", en: "Home" },
   nav_about: { pt: "O Colégio", en: "About" },
   nav_academics: { pt: "Ensino", en: "Academics" },
-  nav_school_life: { pt: "Vida Escolar", en: "School Life" },
+  nav_gallery: { pt: "Galeria", en: "Gallery" },
   nav_admissions: { pt: "Admissões", en: "Admissions" },
   nav_contact: { pt: "Contacto", en: "Contact" },
+  nav_school_life: { pt: "Vida Escolar", en: "School Life" },
+  nav_sub_overview: { pt: "Ver Tudo", en: "Overview" },
 
   // Academics Dropdown / Submenu
   nav_sub_creche: { pt: "Creche & Jardim de Infância", en: "Creche & Kindergarten" },
   nav_sub_hybrid: { pt: "Ensino Nacional Híbrido", en: "Hybrid National Education" },
   nav_sub_national: { pt: "Ensino Nacional Geral", en: "General National Education" },
   nav_sub_cambridge: { pt: "Currículo Cambridge", en: "Cambridge Curriculum" },
+  academics_title: { pt: "Programas Académicos", en: "Academic Programs" },
+  academics_creche_title: { pt: "Creche & Jardim", en: "Creche & Kindergarten" },
+  academics_creche_info: { pt: "Segurança e Carinho", en: "Safety and Care" },
+  academics_creche_desc: { pt: "Um ambiente lúdico e seguro focado no desenvolvimento psicomotor e social dos mais pequenos.", en: "A playful and safe environment focused on the psychomotor and social development of the little ones." },
+  academics_hybrid_title: { pt: "Nacional Híbrido", en: "Hybrid National" },
+  academics_hybrid_desc: { pt: "O melhor dos dois mundos: o rigor do currículo nacional com a integração das metodologias Cambridge.", en: "The best of both worlds: the rigor of the national curriculum with the integration of Cambridge methodologies." },
+  academics_national_title: { pt: "Ensino Nacional", en: "National Education" },
+  academics_national_desc: { pt: "Formação integral baseada no Sistema Nacional de Educação, preparando para os exames nacionais com excelência.", en: "Comprehensive education based on the National Education System, preparing for national exams with excellence." },
+  academics_cambridge_title: { pt: "Cambridge International", en: "Cambridge International" },
+  academics_cambridge_desc: { pt: "Currículo internacional focado no pensamento crítico e competências globais para o sucesso futuro.", en: "International curriculum focused on critical thinking and global skills for future success." },
+  academics_cambridge_focus_title: { pt: "Foco no Sucesso Global", en: "Focus on Global Success" },
+  academics_cambridge_focus_desc: { pt: "Preparamos os nossos alunos para serem cidadãos do mundo, com foco em competências analíticas e domínio perfeito da língua inglesa.", en: "We prepare our students to be citizens of the world, focusing on analytical skills and perfect mastery of the English language." },
+  academics_thinking_process_title: { pt: "Processo de Pensamento", en: "Thinking Process" },
+  academics_thinking_process_desc: { pt: "Desenvolvemos a capacidade de análise e resolução de problemas complexos.", en: "We develop the ability to analyze and solve complex problems." },
+  academics_active_learning_title: { pt: "Aprendizagem Ativa", en: "Active Learning" },
+  academics_active_learning_desc: { pt: "O aluno é o centro do processo, construindo conhecimento através da prática.", en: "The student is the center of the process, building knowledge through practice." },
 
   // Hero
   hero_title: {
@@ -31,8 +49,8 @@ export const translationData = {
   about_school_title: { pt: "O Colégio Enko Sekeleka", en: "Enko Sekeleka School" },
   about_location_title: { pt: "Localização", en: "Location" },
   about_location_desc: {
-    pt: "Cidade de Vilankulo, Bairro 19 de Outubro, Complexo Residencial de Nhamacunda",
-    en: "Vilankulo City, Bairro 19 de Outubro, Nhamacunda Residential Complex"
+    pt: "Nhamucunda, Bairro 19 de Outubro, Cidade de Vilankulo",
+    en: "Nhamucunda, Bairro 19 de Outubro, Vilankulo City"
   },
 
   about_history_title: { pt: "A Nossa História", en: "Our History" },
@@ -161,7 +179,12 @@ export const translationData = {
   enroll_success_title: { pt: "Candidatura Submetida!", en: "Application Submitted!" },
 
   // Contact
+  contact_title: { pt: "Contacto", en: "Contact" },
   contact_intro: { pt: "Estamos à sua disposição para qualquer esclarecimento sobre o nosso colégio.", en: "We are at your disposal for any clarification about our school." },
+  contact_phone: { pt: "Telefone", en: "Phone" },
+  contact_email: { pt: "Email", en: "Email" },
+  contact_message: { pt: "Mensagem", en: "Message" },
+  contact_name: { pt: "Nome", en: "Name" },
   contact_hours_title: { pt: "Horário", en: "Opening Hours" },
   contact_hours_days: { pt: "Segunda - Sexta", en: "Monday - Friday" },
   contact_form_subtitle: { pt: "Preencha os dados abaixo e entraremos em contacto brevemente.", en: "Fill in the details below and we will contact you shortly." },
@@ -171,13 +194,25 @@ export const translationData = {
   contact_success_title: { pt: "Recebemos a sua mensagem", en: "Message received" },
   contact_success_desc: { pt: "Entraremos em contacto brevemente.", en: "We will contact you shortly." },
 
+  // CTA Section
+  cta_title: { pt: "Prepare o Futuro do seu Educando Hoje", en: "Prepare Your Child's Future Today" },
+  cta_subtitle: { pt: "Inscrições abertas para o Sistema Nacional e Cambridge International.", en: "Enrollment open for both National and Cambridge International systems." },
+  cta_enroll: { pt: "Iniciar Candidatura", en: "Start Application" },
+  cta_whatsapp: { pt: "Falar com Secretaria", en: "Talk to Office" },
+
   // Academics Extra
-  academics_cambridge_focus_title: { pt: "Padrão Cambridge em todas as fases.", en: "Cambridge Standard in all phases." },
-  academics_cambridge_focus_desc: { pt: "Embora tenhamos o Sistema Nacional, a nossa cultura pedagógica é impregnada pelo rigor e metodologias Cambridge desde os primeiros anos do ensino primário.", en: "Although we have the National System, our pedagogical culture is impregnated by Cambridge rigor and methodologies since the first years of primary education." },
-  academics_thinking_process_title: { pt: "Thinking Process", en: "Thinking Process" },
-  academics_thinking_process_desc: { pt: "Raciocínio lógico e crítico em todas as disciplinas.", en: "Logical and critical reasoning in all subjects." },
-  academics_active_learning_title: { pt: "Active Learning", en: "Active Learning" },
-  academics_active_learning_desc: { pt: "O aluno como protagonista da sua aprendizagem.", en: "The student as the protagonist of their learning." },
+  about_title: { pt: "Sobre Nós", en: "About Us" },
+  about_mission_title: { pt: "Missão", en: "Mission" },
+  about_mission: { pt: "Proporcionar uma educação de excelência que prepara cidadãos globais.", en: "To provide an excellent education that prepares global citizens." },
+  about_values_title: { pt: "Valores", en: "Values" },
+  about_values: { pt: "Integridade, Excelência, Diversidade e Inovação.", en: "Integrity, Excellence, Diversity, and Innovation." },
+  about_commitment_title: { pt: "Compromisso", en: "Commitment" },
+  about_commitment: { pt: "Garantir o sucesso académico e pessoal de cada aluno.", en: "Ensuring the academic and personal success of every student." },
+  about_history: { pt: "Uma trajetória de crescimento e excelência desde 2016.", en: "A trajectory of growth and excellence since 2016." },
+
+  // Footer Extra
+  footer_contact_title: { pt: "Contacto", en: "Contact" },
+  footer_email_label: { pt: "Email", en: "Email" },
 
   // Program Features
   prog_creche_f1: { pt: "Metodologia Lúdica", en: "Playful Methodology" },
@@ -210,7 +245,13 @@ export const translationData = {
     pt: "Ambientes de aprendizagem, infraestrutura e momentos marcantes da nossa comunidade.",
     en: "Learning environments, infrastructure and landmark moments of our community.",
   },
-  gallery_view_details: { pt: "Ver Detalhes", en: "View Details" },
+  gallery_filter_all: { pt: "Todos", en: "All" },
+  gallery_filter_science: { pt: "Ciências & Laboratório", en: "Science & Lab" },
+  gallery_filter_primary: { pt: "Ensino Primário", en: "Primary Education" },
+  gallery_filter_secondary: { pt: "Ensino Secundário", en: "Secondary Education" },
+  gallery_filter_sports: { pt: "Desporto", en: "Sports" },
+  gallery_filter_school_life: { pt: "Vida Escolar", en: "School Life" },
+  gallery_view_all: { pt: "Ver Tudo", en: "View All" },
 
   // Contact (Contacto)
   contact_title_full: { pt: "Contacte-nos", en: "Contact Us" },
@@ -262,6 +303,24 @@ export const translationData = {
   footer_links: { pt: "Navegação", en: "Navigation" },
   footer_contact: { pt: "Endereço", en: "Address" },
   footer_social: { pt: "Siga-nos", en: "Follow Us" },
+
+  // Cambridge Section (Home)
+  cambridge_title: { pt: "Excelência e Rigor Cambridge", en: "Cambridge Excellence and Rigor" },
+  cambridge_desc: { pt: "Como escola internacional autorizada, oferecemos o prestigiado currículo da Cambridge Assessment International Education, capacitando alunos com competências essenciais para o século XXI.", en: "As an authorized international school, we offer the prestigious Cambridge Assessment International Education curriculum, empowering students with essential 21st-century skills." },
+  cambridge_teachers_desc: { pt: "Liderado por professores certificados e mentores graduados internacionalmente.", en: "Led by certified teachers and internationally graduated mentors." },
+  cambridge_item_critical: { pt: "Pensamento Crítico", en: "Critical Thinking" },
+  cambridge_item_logic: { pt: "Raciocínio Lógico", en: "Logical Reasoning" },
+  cambridge_item_english: { pt: "Domínio do Inglês", en: "English Mastery" },
+  cambridge_item_exams: { pt: "Certificações Globais", en: "Global Certifications" },
+
+  // School Life
+  school_life_title: { pt: "A Nossa Vida Escolar", en: "Our School Life" },
+  school_life_activity_sports: { pt: "Desporto & Educação Física", en: "Sports & Physical Education" },
+  school_life_activity_taekwondo: { pt: "Taekwondo", en: "Taekwondo" },
+  school_life_activity_chess: { pt: "Xadrez", en: "Chess" },
+  school_life_activity_english: { pt: "Clube de Inglês", en: "English Club" },
+  school_life_activity_it: { pt: "Informática & Robótica", en: "IT & Robotics" },
+  school_life_activity_music: { pt: "Música & Artes", en: "Music & Arts" },
 } as const;
 
 export type TranslationKey = keyof typeof translationData;

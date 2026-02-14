@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { MapPin, History, Users, Handshake } from "lucide-react";
+import schoolFront from "@/assets/gallery/school-front.jpg";
+import SEO from "@/components/SEO";
 
 const About = () => {
     const { t } = useLanguage();
@@ -24,6 +26,7 @@ const About = () => {
 
     return (
         <div className="min-h-screen bg-background">
+            <SEO title={t("nav_about")} canonical="/about" />
             <Header />
             <main className="pt-24 pb-20">
                 <div className="container mx-auto px-4">
@@ -40,24 +43,27 @@ const About = () => {
 
                     {/* Location */}
                     <section className="mb-24">
-                        <div className="bg-muted/30 rounded-3xl p-8 md:p-12 border border-border shadow-sm">
-                            <div className="flex items-center gap-4 mb-8">
-                                <div className="bg-primary p-3 rounded-xl text-primary-foreground shadow-lg">
-                                    <MapPin size={32} />
-                                </div>
-                                <h2 className="text-3xl font-bold">{t("about_location_title")}</h2>
-                            </div>
-                            <div className="grid md:grid-cols-2 gap-12 items-center">
-                                <div>
+                        <div className="bg-muted/30 rounded-[3rem] p-8 md:p-14 border border-border shadow-md overflow-hidden relative">
+                            <div className="grid lg:grid-cols-2 gap-12 items-center">
+                                <div className="relative z-10">
+                                    <div className="flex items-center gap-4 mb-6">
+                                        <div className="bg-primary p-3 rounded-2xl text-primary-foreground shadow-lg">
+                                            <MapPin size={32} />
+                                        </div>
+                                        <h2 className="text-3xl font-bold">{t("about_location_title")}</h2>
+                                    </div>
                                     <p className="text-xl text-muted-foreground leading-relaxed">
                                         {t("about_location_desc")}
                                     </p>
                                 </div>
-                                <div className="h-[350px] bg-muted rounded-2xl overflow-hidden shadow-inner border border-border flex items-center justify-center">
-                                    {/* Map Placeholder - In real world would be Google Maps iframe */}
-                                    <div className="text-center text-muted-foreground italic px-8">
-                                        [Google Maps Integration: Vilankulo, Bairro 19 de Outubro, Complexo Residencial de Nhamacunda]
-                                    </div>
+                                <div className="h-[450px] rounded-[2.5rem] overflow-hidden shadow-2xl border border-border group relative">
+                                    <img
+                                        src={schoolFront}
+                                        alt="Fachada do Colégio Enko Sekeleka em Vilankulo - Infraestrutura Moderna"
+                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                    />
+                                    <div className="absolute inset-0 bg-black/10 transition-opacity group-hover:bg-transparent pointer-events-none"></div>
+                                    <div className="absolute inset-0 pointer-events-none border-[12px] border-white/10 rounded-[2.5rem]"></div>
                                 </div>
                             </div>
                         </div>

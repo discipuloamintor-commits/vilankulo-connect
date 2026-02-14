@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Facebook, CheckCircle, MessageCircle, Clock, Send } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const schema = z.object({
   name: z.string().min(2),
@@ -33,6 +34,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO title={t("nav_contact")} canonical="/contact" />
       <Header />
       <main className="pt-24 pb-20">
         <div className="container mx-auto px-4">

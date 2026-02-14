@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,23 +6,18 @@ import HeroSection from "@/components/sections/HeroSection";
 import ProgramOverview from "@/components/sections/ProgramOverview";
 import CambridgeSection from "@/components/sections/CambridgeSection";
 import CTASection from "@/components/sections/CTASection";
+import GalleryPreview from "@/components/sections/GalleryPreview";
+import SEO from "@/components/SEO";
 import { GraduationCap, Award, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Index = () => {
-  const { lang, t } = useLanguage();
-
-  useEffect(() => {
-    document.title = t("seo_title");
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute("content", t("seo_description"));
-    }
-  }, [lang, t]);
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen">
+      <SEO />
       <Header />
       <main>
         <HeroSection />
@@ -75,6 +69,7 @@ const Index = () => {
 
         <ProgramOverview />
         <CambridgeSection />
+        <GalleryPreview />
 
         {/* Teachers Highlight (New on Home) */}
         <section className="py-24 bg-background overflow-hidden">

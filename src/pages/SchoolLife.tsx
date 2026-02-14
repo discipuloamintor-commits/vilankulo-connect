@@ -1,8 +1,9 @@
+import { Award, Star, Activity, Heart, Music, Monitor, Trophy, Users, Globe, GraduationCap } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import SEO from "@/components/SEO";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import { Award, Star, Activity, Heart, Music, Monitor, Trophy } from "lucide-react";
+import Footer from "@/components/Footer";
 
 const SchoolLife = () => {
     const { t } = useLanguage();
@@ -21,6 +22,7 @@ const SchoolLife = () => {
 
     return (
         <div className="min-h-screen bg-background">
+            <SEO title={t("nav_school_life")} canonical="/school-life" />
             <Header />
             <main className="pt-24 pb-20">
                 <div className="container mx-auto px-4">
@@ -132,8 +134,5 @@ const SchoolLife = () => {
         </div>
     );
 };
-
-// Internal Import
-import { Users, Globe, GraduationCap } from "lucide-react";
 
 export default SchoolLife;
