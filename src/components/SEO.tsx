@@ -16,10 +16,10 @@ const SEO = ({
 }: SEOProps) => {
     const { t } = useLanguage();
 
-    const siteName = "Colégio Enko Sekeleka";
+    const siteName = "Colégio enko Sekeleka";
     const fullTitle = title ? `${title} | ${siteName}` : t("seo_title");
     const fullDescription = description || t("seo_description");
-    const baseUrl = "https://www.colegioenkosekeleka.com";
+    const baseUrl = "https://www.enkosekeleka.com";
     const url = `${baseUrl}${canonical === "/" ? "" : canonical}`;
 
     useEffect(() => {
@@ -42,8 +42,11 @@ const SEO = ({
         updateMeta("og:description", fullDescription, "property");
         updateMeta("og:url", url, "property");
         updateMeta("og:type", ogType, "property");
+        updateMeta("og:site_name", siteName, "property");
+        updateMeta("og:image", `${baseUrl}/favicon.ico`, "property");
         updateMeta("twitter:title", fullTitle);
         updateMeta("twitter:description", fullDescription);
+        updateMeta("twitter:image", `${baseUrl}/favicon.ico`);
 
         // Update Canonical
         let canonicalLink = document.querySelector('link[rel="canonical"]');

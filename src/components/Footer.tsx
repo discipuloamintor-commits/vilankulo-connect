@@ -13,9 +13,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="Enko Sekeleka" className="h-12 w-auto brightness-200" />
+              <img src={logo} alt="enko Sekeleka" className="h-12 w-auto brightness-200" />
               <span className="text-xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Colégio Ekosekeleka
+                Colégio enko Sekeleka
               </span>
             </div>
             <p className="text-sm opacity-70 leading-relaxed max-w-xs">
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-60">
-          <div>© {new Date().getFullYear()} Colégio Enko Sekeleka. {t("footer_rights")}</div>
+          <div>© {new Date().getFullYear()} Colégio enko Sekeleka. {t("footer_rights")}</div>
           <div>
             Desenvolvido por{" "}
             <a href="https://www.lgtecserv.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors font-bold">

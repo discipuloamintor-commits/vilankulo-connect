@@ -21,7 +21,7 @@ type FormData = z.infer<typeof schema>;
 const Contact = () => {
   const { t } = useLanguage();
   const [submitted, setSubmitted] = useState(false);
-  const phone = "258847589113";
+  const phone = "258877589113";
   const whatsappMsg = encodeURIComponent(t("whatsapp_message"));
 
   const {
@@ -120,7 +120,7 @@ const Contact = () => {
                   allowFullScreen
                   className="absolute inset-0"
                   loading="lazy"
-                  title="Localização do Colégio Enko Sekeleka"
+                  title="Localização do Colégio enko Sekeleka"
                 />
               </div>
             </div>

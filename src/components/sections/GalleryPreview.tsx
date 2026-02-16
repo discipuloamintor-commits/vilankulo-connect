@@ -49,7 +49,7 @@ const GalleryPreview = () => {
                         >
                             <img
                                 src={img.url}
-                                alt={`${img.title} - Colégio Enko Sekeleka Vilankulo`}
+                                alt={`${img.title} - Colégio enko Sekeleka Vilankulo`}
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             />
                             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">

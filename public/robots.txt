@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.colegioenkosekeleka.com/sitemap.xml
+Sitemap: https://www.enkosekeleka.com/sitemap.xml

@@ -49,7 +49,7 @@ export const galleryData: GalleryItem[] = [
         category: "science",
         title: { pt: "Laboratório de Química", en: "Chemistry Laboratory" },
         description: { pt: "Alunos explorando conceitos práticos com supervisão docente.", en: "Students exploring practical concepts under faculty supervision." },
-        alt: { pt: "Professor e alunos em laboratório de química do Colégio Ekosekeleka", en: "Teacher and students in chemistry lab at Ekosekeleka School" }
+        alt: { pt: "Professor e alunos em laboratório de química do Colégio enko Sekeleka", en: "Teacher and students in chemistry lab at enko Sekeleka School" }
     },
     {
         id: "2",
@@ -57,7 +57,7 @@ export const galleryData: GalleryItem[] = [
         category: "tech",
         title: { pt: "Literacia Digital", en: "Digital Literacy" },
         description: { pt: "Desenvolvimento de competências tecnológicas essenciais.", en: "Developing essential technological skills." },
-        alt: { pt: "Aluno em aula de informática no Colégio Ekosekeleka", en: "Student in computer science class at Ekosekeleka School" }
+        alt: { pt: "Aluno em aula de informática no Colégio enko Sekeleka", en: "Student in computer science class at enko Sekeleka School" }
     },
     {
         id: "3",
@@ -65,15 +65,15 @@ export const galleryData: GalleryItem[] = [
         category: "primary",
         title: { pt: "Expressão Artística", en: "Artistic Expression" },
         description: { pt: "Estimulando a criatividade e motricidade fina no ensino primário.", en: "Stimulating creativity and fine motor skills in primary education." },
-        alt: { pt: "Crianças pintando em sala de aula no Colégio Ekosekeleka", en: "Children painting in classroom at Ekosekeleka School" }
+        alt: { pt: "Crianças pintando em sala de aula no Colégio enko Sekeleka", en: "Children painting in classroom at enko Sekeleka School" }
     },
     {
         id: "4",
         src: img4,
         category: "life",
         title: { pt: "Identidade Institucional", en: "Institutional Identity" },
-        description: { pt: "Nossos alunos carregam o orgulho da marca Ekosekeleka.", en: "Our students carry the pride of the Ekosekeleka brand." },
-        alt: { pt: "Alunos posando em frente ao logo do Colégio Ekosekeleka", en: "Students posing in front of Ekosekeleka School logo" }
+        description: { pt: "Nossos alunos carregam o orgulho da marca enko Sekeleka.", en: "Our students carry the pride of the enko Sekeleka brand." },
+        alt: { pt: "Alunos posando em frente ao logo do Colégio enko Sekeleka", en: "Students posing in front of enko Sekeleka School logo" }
     },
     {
         id: "5",
@@ -81,7 +81,7 @@ export const galleryData: GalleryItem[] = [
         category: "science",
         title: { pt: "Experiência Prática", en: "Hands-on Experience" },
         description: { pt: "Ciência viva através de experiências laboratoriais dinâmicas.", en: "Live science through dynamic laboratory experiments." },
-        alt: { pt: "Aluna realizando experiência científica no Colégio Ekosekeleka", en: "Student performing scientific experiment at Ekosekeleka School" }
+        alt: { pt: "Aluna realizando experiência científica no Colégio enko Sekeleka", en: "Student performing scientific experiment at enko Sekeleka School" }
     },
     {
         id: "6",
@@ -89,7 +89,7 @@ export const galleryData: GalleryItem[] = [
         category: "sports",
         title: { pt: "Formação Física", en: "Physical Education" },
         description: { pt: "Promoção da saúde e disciplina através do desporto escolar.", en: "Promoting health and discipline through school sports." },
-        alt: { pt: "Alunos em aula de educação física no Colégio Ekosekeleka", en: "Students in physical education class at Ekosekeleka School" }
+        alt: { pt: "Alunos em aula de educação física no Colégio enko Sekeleka", en: "Students in physical education class at enko Sekeleka School" }
     },
     {
         id: "7",
@@ -129,7 +129,7 @@ export const galleryData: GalleryItem[] = [
         category: "infrastructure",
         title: { pt: "Biblioteca e Estudo", en: "Library & Study Space" },
         description: { pt: "Espaço dedicado à pesquisa, leitura e concentração.", en: "Dedicated space for research, reading, and concentration." },
-        alt: { pt: "Interior da biblioteca do Colégio Ekosekeleka", en: "Interior of Ekosekeleka School library" }
+        alt: { pt: "Interior da biblioteca do Colégio enko Sekeleka", en: "Interior of enko Sekeleka School library" }
     },
     {
         id: "12",
@@ -145,7 +145,7 @@ export const galleryData: GalleryItem[] = [
         category: "infrastructure",
         title: { pt: "Fachada Principal", en: "Main Entrance" },
         description: { pt: "Ambiente institucional profissional e seguro.", en: "Professional and secure institutional environment." },
-        alt: { pt: "Fachada moderna do Colégio Ekosekeleka em Vilankulo", en: "Modern facade of Ekosekeleka School in Vilankulo" }
+        alt: { pt: "Fachada moderna do Colégio enko Sekeleka em Vilankulo", en: "Modern facade of enko Sekeleka School in Vilankulo" }
     },
     {
         id: "14",
@@ -153,7 +153,7 @@ export const galleryData: GalleryItem[] = [
         category: "sports",
         title: { pt: "Pavilhão Desportivo", en: "Sports Pavilion" },
         description: { pt: "Prática de basquetebol e outras modalidades indoor.", en: "Basketball and other indoor sports practice." },
-        alt: { pt: "Campo de basquetebol coberto do Colégio Ekosekeleka", en: "Covered basketball court at Ekosekeleka School" }
+        alt: { pt: "Campo de basquetebol coberto do Colégio enko Sekeleka", en: "Covered basketball court at enko Sekeleka School" }
     },
     {
         id: "15",

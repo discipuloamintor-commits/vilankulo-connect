@@ -59,7 +59,7 @@ const About = () => {
                                 <div className="h-[450px] rounded-[2.5rem] overflow-hidden shadow-2xl border border-border group relative">
                                     <img
                                         src={schoolFront}
-                                        alt="Fachada do Colégio Enko Sekeleka em Vilankulo - Infraestrutura Moderna"
+                                        alt="Fachada do Colégio enko Sekeleka em Vilankulo - Infraestrutura Moderna"
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                     />
                                     <div className="absolute inset-0 bg-black/10 transition-opacity group-hover:bg-transparent pointer-events-none"></div>

@@ -142,7 +142,7 @@ const Gallery = () => {
                                 >
                                     <img
                                         src={img.url}
-                                        alt={`${img.title} - Galeria Colégio Enko Sekeleka`}
+                                        alt={`${img.title} - Galeria Colégio enko Sekeleka`}
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                         loading="lazy"
                                     />

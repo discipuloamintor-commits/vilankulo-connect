@@ -65,7 +65,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-2 group shrink-0">
             <img
               src={logo}
-              alt="Colégio Enko Sekeleka"
+              alt="Colégio enko Sekeleka"
               className="h-14 w-auto transition-transform duration-500 group-hover:scale-105"
             />
           </Link>
@@ -230,7 +230,7 @@ const Header = () => {
                   {t("nav_admissions")}
                 </Link>
                 <div className="mt-6 text-center text-[10px] text-white/20 uppercase font-black tracking-widest">
-                  © 2026 Colégio Enko Sekeleka
+                  © 2026 Colégio enko Sekeleka
                 </div>
               </div>
             </motion.div>

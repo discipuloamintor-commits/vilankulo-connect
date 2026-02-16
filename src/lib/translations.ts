@@ -35,8 +35,8 @@ export const translationData = {
 
   // Hero
   hero_title: {
-    pt: "Colégio Ekosekeleka – Do Centro Infantil ao Secundário com Padrão Internacional",
-    en: "Colégio Ekosekeleka – From Kindergarten to Secondary with International Standards",
+    pt: "Colégio enko Sekeleka – Do Centro Infantil ao Secundário com Padrão Internacional",
+    en: "Colégio enko Sekeleka – From Kindergarten to Secondary with International Standards",
   },
   hero_subtitle: {
     pt: "Formação de excelência em Vilankulo através dos sistemas Nacional e Cambridge International.",
@@ -46,7 +46,7 @@ export const translationData = {
   hero_cta_whatsapp: { pt: "Agendar Visita", en: "Schedule Visit" },
 
   // About School (O Colégio)
-  about_school_title: { pt: "O Colégio Enko Sekeleka", en: "Enko Sekeleka School" },
+  about_school_title: { pt: "O Colégio enko Sekeleka", en: "enko Sekeleka School" },
   about_location_title: { pt: "Localização", en: "Location" },
   about_location_desc: {
     pt: "Nhamucunda, Bairro 19 de Outubro, Cidade de Vilankulo",
@@ -119,13 +119,13 @@ export const translationData = {
   school_life_title: { pt: "Vida Escolar", en: "School Life" },
   school_life_purpose_title: { pt: "Propósito Institucional", en: "Institutional Purpose" },
   school_life_purpose_text: {
-    pt: "Educar para transformar. No Colégio Enko Sekeleka, o nosso compromisso é acolher a diversidade da nossa comunidade de Vilankulo e oferecer um percurso académico de rigor. O nosso objetivo é garantir que cada aluno, desde o Centro Infantil até ao Secundário (SNE ou Cambridge), adquira as ferramentas necessárias para construir um futuro de sucesso, sem fronteiras.",
-    en: "Educating to transform. At Enko Sekeleka School, our commitment is to welcome the diversity of our Vilankulo community and offer an academic path of rigor. Our goal is to ensure that every student, from the Child Center to Secondary (SNE or Cambridge), acquires the tools needed to build a successful future, without borders."
+    pt: "Educar para transformar. No Colégio enko Sekeleka, o nosso compromisso é acolher a diversidade da nossa comunidade de Vilankulo e oferecer um percurso académico de rigor. O nosso objetivo é garantir que cada aluno, desde o Centro Infantil até ao Secundário (SNE ou Cambridge), adquira as ferramentas necessárias para construir um futuro de sucesso, sem fronteiras.",
+    en: "Educating to transform. At enko Sekeleka School, our commitment is to welcome the diversity of our Vilankulo community and offer an academic path of rigor. Our goal is to ensure that every student, from the Child Center to Secondary (SNE or Cambridge), acquires the tools needed to build a successful future, without borders."
   },
   school_life_staff_title: { pt: "Qualidade do Corpo Docente", en: "Quality of the Teaching Staff" },
   school_life_staff_desc: {
-    pt: "Professores com alta qualificação e experiência internacional, dominando tanto o SNE quanto o sistema Cambridge. Muitos dos nossos mentores são graduados em universidades de renome na Ásia e Europa.",
-    en: "Highly qualified teachers with international experience, mastering both SNE and the Cambridge system. Many of our mentors are graduates from renowned universities in Asia and Europe."
+    pt: "Professores com alta qualificação e experiência internacional, dominando tanto o SNE quanto o sistema Cambridge. Parte do nosso corpo docente é formada em universidades internacionais de renome.",
+    en: "Highly qualified teachers with international experience, mastering both SNE and the Cambridge system. Part of our teaching staff graduated from renowned international universities."
   },
 
   school_life_activities_extra: { pt: "Atividades Extra-curriculares", en: "Extra-curricular Activities" },
@@ -149,7 +149,7 @@ export const translationData = {
   admissions_step_3: { pt: "Documentação e Matrícula", en: "Documentation & Enrollment" },
 
   // Home Revamp
-  home_intro_badge: { pt: "Bem-vindo ao Colégio Enko Sekeleka", en: "Welcome to Enko Sekeleka School" },
+  home_intro_badge: { pt: "Bem-vindo ao Colégio enko Sekeleka", en: "Welcome to enko Sekeleka School" },
   home_intro_title: { pt: "Transformando o Futuro em Vilankulo", en: "Transforming the Future in Vilankulo" },
   home_intro_desc: { pt: "A nossa instituição é um pilar de excelência académica em Moçambique, oferecendo um ambiente multicultural e um currículo que prepara os alunos para os desafios globais.", en: "Our institution is a pillar of academic excellence in Mozambique, offering a multicultural environment and a curriculum that prepares students for global challenges." },
   home_intro_cta: { pt: "Conheça a nossa história", en: "Discover our history" },
@@ -161,8 +161,8 @@ export const translationData = {
   home_prog_title: { pt: "Excelência Académica em Todos os Níveis", en: "Academic Excellence at All Levels" },
   home_prog_desc: { pt: "Do berçário ao Secundário, oferecemos um percurso educativo completo, bilingue e de padrão internacional.", en: "From nursery to Secondary, we offer a complete, bilingual and international standard educational pathway." },
   home_prog_cta: { pt: "Ver Detalhes do Ensino", en: "View Education Details" },
-  home_teachers_asia: { pt: "Graduados na Ásia", en: "Asia Graduates" },
-  home_teachers_europe: { pt: "Graduados na Europa", en: "Europe Graduates" },
+  home_teachers_asia: { pt: "Formação Internacional", en: "International Training" },
+  home_teachers_europe: { pt: "Graduados Internacionalmente", en: "Internationally Graduated" },
   home_teachers_cambridge: { pt: "Especialistas Cambridge", en: "Cambridge Specialists" },
 
   // Admissions (Enrollment)
@@ -237,7 +237,7 @@ export const translationData = {
 
   // School Life Extra
   school_life_staff_badge: { pt: "Excelência Docente", en: "Teaching Excellence" },
-  school_life_staff_quote: { pt: "Focamos na mentoria e na formação contínua, garantindo que nossos graduados alcancem universidades de prestígio na Ásia e Europa.", en: "We focus on mentoring and continuous training, ensuring our graduates reach prestigious universities in Asia and Europe." },
+  school_life_staff_quote: { pt: "Focamos na mentoria e na formação contínua, garantindo que nossos graduados alcancem universidades de prestígio a nível internacional.", en: "We focus on mentoring and continuous training, ensuring our graduates reach prestigious universities internationally." },
 
   // Gallery (Existing keys preserved or adapted)
   gallery_title: { pt: "Galeria Institucional", en: "Institutional Gallery" },
@@ -286,8 +286,8 @@ export const translationData = {
 
   // SEO
   seo_title: {
-    pt: "Colégio Enko Sekeleka | Do Centro Infantil ao Secundário em Vilankulo",
-    en: "Enko Sekeleka School | From Kindergarten to Secondary in Vilankulo",
+    pt: "Colégio enko Sekeleka | Do Centro Infantil ao Secundário em Vilankulo",
+    en: "enko Sekeleka School | From Kindergarten to Secondary in Vilankulo",
   },
   seo_description: {
     pt: "Instituição de referência em Vilankulo oferecendo Ensino Nacional e Cambridge International. Do berçário à 12ª classe com padrão internacional.",
@@ -296,8 +296,8 @@ export const translationData = {
 
   // Other Existing
   whatsapp_message: {
-    pt: "Olá, gostaria de saber mais sobre o processo de admissão no Colégio Enko Sekeleka.",
-    en: "Hello, I would like to know more about the admission process at Enko Sekeleka School.",
+    pt: "Olá, gostaria de saber mais sobre o processo de admissão no Colégio enko Sekeleka.",
+    en: "Hello, I would like to know more about the admission process at enko Sekeleka School.",
   },
   footer_rights: { pt: "Todos os direitos reservados.", en: "All rights reserved." },
   footer_links: { pt: "Navegação", en: "Navigation" },

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const CTASection = () => {
   const { t } = useLanguage();
-  const phone = "258847589113";
+  const phone = "258877589113";
   const message = encodeURIComponent(t("whatsapp_message"));
 
   return (
