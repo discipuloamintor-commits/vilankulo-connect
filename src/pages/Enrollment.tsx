@@ -14,7 +14,7 @@ const schema = z.object({
   guardian: z.string().min(2),
   student: z.string().min(2),
   age: z.string().min(1),
-  program: z.enum(["primary", "secondary", "early"]),
+  program: z.enum(["creche", "primary", "secondary", "cambridge"]),
   phone: z.string().min(8),
   email: z.string().email(),
   message: z.string().optional(),
@@ -34,7 +34,28 @@ const Enrollment = () => {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = () => {
+  const onSubmit = (data: FormData) => {
+    const phone = "258877589113";
+    const programLabels: Record<string, string> = {
+      creche: t("enroll_program_creche"),
+      primary: t("enroll_program_primary"),
+      secondary: t("enroll_program_secondary"),
+      cambridge: t("enroll_program_cambridge"),
+    };
+
+    const whatsappMessage = `*Nova Solicitação de Ingresso*
+---------------------------
+*Encarregado:* ${data.guardian}
+*Aluno:* ${data.student}
+*Idade:* ${data.age}
+*Segmento:* ${programLabels[data.program]}
+*Telefone:* ${data.phone}
+*Email:* ${data.email}
+${data.message ? `\n*Mensagem:* ${data.message}` : ""}
+---------------------------`;
+
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    window.open(`https://wa.me/${phone}?text=${encodedMessage}`, "_blank");
     setSubmitted(true);
   };
 
@@ -57,17 +78,17 @@ const Enrollment = () => {
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-20 text-center">
-              <div className="bg-card p-6 rounded-2xl border border-border shadow-sm">
+              <div className="bg-card p-6 rounded-2xl border border-border shadow-sm text-card-foreground">
                 <div className="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 font-black">1</div>
                 <h4 className="font-bold mb-2">{t("enroll_step_1_title")}</h4>
                 <p className="text-sm text-muted-foreground">{t("enroll_step_1_desc")}</p>
               </div>
-              <div className="bg-card p-6 rounded-2xl border border-border shadow-sm">
+              <div className="bg-card p-6 rounded-2xl border border-border shadow-sm text-card-foreground">
                 <div className="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 font-black">2</div>
                 <h4 className="font-bold mb-2">{t("enroll_step_2_title")}</h4>
                 <p className="text-sm text-muted-foreground">{t("enroll_step_2_desc")}</p>
               </div>
-              <div className="bg-card p-6 rounded-2xl border border-border shadow-sm">
+              <div className="bg-card p-6 rounded-2xl border border-border shadow-sm text-card-foreground">
                 <div className="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 font-black">3</div>
                 <h4 className="font-bold mb-2">{t("enroll_step_3_title")}</h4>
                 <p className="text-sm text-muted-foreground">{t("enroll_step_3_desc")}</p>
@@ -126,9 +147,10 @@ const Enrollment = () => {
                         {...register("program")}
                         className="w-full px-5 py-4 rounded-xl border-2 border-border bg-background text-foreground focus:outline-none focus:border-primary transition-all appearance-none"
                       >
-                        <option value="early">{t("enroll_program_child")}</option>
+                        <option value="creche">{t("enroll_program_creche")}</option>
                         <option value="primary">{t("enroll_program_primary")}</option>
                         <option value="secondary">{t("enroll_program_secondary")}</option>
+                        <option value="cambridge">{t("enroll_program_cambridge")}</option>
                       </select>
                     </div>
                   </div>

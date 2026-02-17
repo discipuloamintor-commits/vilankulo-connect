@@ -262,7 +262,7 @@ export const translationData = {
   // Enrollment (segmented program names)
   enroll_program_creche: { pt: "Creche / Jardim de Infância", en: "Creche / Kindergarten" },
   enroll_program_primary: { pt: "Ensino Nacional Híbrido (1ª-6ª)", en: "National Hybrid (1st-6th)" },
-  enroll_program_national: { pt: "Ensino Nacional Geral (7ª-12ª)", en: "General National (7th-12th)" },
+  enroll_program_secondary: { pt: "Ensino Nacional Geral (7ª-12ª)", en: "General National (7th-12th)" },
   enroll_program_cambridge: { pt: "Ensino Cambridge International", en: "Cambridge International" },
 
   // Shared / UI
