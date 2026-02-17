@@ -43,10 +43,10 @@ const SEO = ({
         updateMeta("og:url", url, "property");
         updateMeta("og:type", ogType, "property");
         updateMeta("og:site_name", siteName, "property");
-        updateMeta("og:image", `${baseUrl}/favicon.ico`, "property");
+        updateMeta("og:image", `${baseUrl}/og-image.jpg`, "property");
         updateMeta("twitter:title", fullTitle);
         updateMeta("twitter:description", fullDescription);
-        updateMeta("twitter:image", `${baseUrl}/favicon.ico`);
+        updateMeta("twitter:image", `${baseUrl}/og-image.jpg`);
 
         // Update Canonical
         let canonicalLink = document.querySelector('link[rel="canonical"]');
