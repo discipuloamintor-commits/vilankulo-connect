@@ -42,7 +42,7 @@ const About = () => {
                     </motion.div>
 
                     {/* Location */}
-                    <section className="mb-24">
+                    <section className="mb-12 md:mb-24">
                         <div className="bg-muted/30 rounded-[3rem] p-8 md:p-14 border border-border shadow-md overflow-hidden relative">
                             <div className="grid lg:grid-cols-2 gap-12 items-center">
                                 <div className="relative z-10">
@@ -70,7 +70,7 @@ const About = () => {
                     </section>
 
                     {/* History */}
-                    <section className="mb-24">
+                    <section className="mb-12 md:mb-24">
                         <div className="flex items-center gap-4 mb-12">
                             <div className="bg-primary p-3 rounded-xl text-primary-foreground shadow-lg">
                                 <History size={32} />
@@ -100,7 +100,7 @@ const About = () => {
                     </section>
 
                     {/* Administrative Structure */}
-                    <section className="mb-24">
+                    <section className="mb-12 md:mb-24">
                         <div className="flex items-center gap-4 mb-12">
                             <div className="bg-primary p-3 rounded-xl text-primary-foreground shadow-lg">
                                 <Users size={32} />

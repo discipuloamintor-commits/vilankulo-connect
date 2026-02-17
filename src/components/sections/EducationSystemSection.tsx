@@ -14,7 +14,7 @@ const EducationSystemSection = () => {
     ];
 
     return (
-        <section id="education-system" className="py-20 bg-muted/30">
+        <section id="education-system" className="py-12 md:py-20 bg-muted/30">
             <div className="container mx-auto px-4">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <motion.div

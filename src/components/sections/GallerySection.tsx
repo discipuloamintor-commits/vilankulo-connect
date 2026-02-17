@@ -40,7 +40,7 @@ const GallerySection = () => {
   };
 
   return (
-    <section id="gallery" className="py-24 bg-background">
+    <section id="gallery" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div
@@ -65,8 +65,8 @@ const GallerySection = () => {
               key={filter.id}
               onClick={() => setActiveFilter(filter.id)}
               className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${activeFilter === filter.id
-                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25 scale-105"
-                  : "bg-muted text-muted-foreground hover:bg-muted/80"
+                ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25 scale-105"
+                : "bg-muted text-muted-foreground hover:bg-muted/80"
                 }`}
             >
               {filter.label}

@@ -38,7 +38,7 @@ const SchoolLife = () => {
                     </motion.div>
 
                     {/* Purpose Block */}
-                    <section className="mb-24">
+                    <section className="mb-12 md:mb-24">
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ const SchoolLife = () => {
                     </section>
 
                     {/* Teaching Quality */}
-                    <section className="mb-24">
+                    <section className="mb-12 md:mb-24">
                         <div className="grid lg:grid-cols-2 gap-16 items-center">
                             <div>
                                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted rounded-full text-primary font-bold text-sm mb-6 border border-border">

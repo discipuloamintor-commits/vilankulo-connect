@@ -8,7 +8,7 @@ const CTASection = () => {
   const message = encodeURIComponent(t("whatsapp_message"));
 
   return (
-    <section className="py-24 bg-gradient-to-br from-primary to-primary-dark text-primary-foreground relative overflow-hidden">
+    <section className="py-12 md:py-24 bg-gradient-to-br from-primary to-primary-dark text-primary-foreground relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <motion.div

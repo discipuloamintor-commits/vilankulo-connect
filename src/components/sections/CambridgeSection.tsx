@@ -14,7 +14,7 @@ const CambridgeSection = () => {
     ];
 
     return (
-        <section id="cambridge" className="py-24 overflow-hidden">
+        <section id="cambridge" className="py-12 md:py-24 overflow-hidden">
             <div className="container mx-auto px-4">
                 <div className="bg-foreground text-background rounded-3xl overflow-hidden shadow-2xl">
                     <div className="grid lg:grid-cols-2">

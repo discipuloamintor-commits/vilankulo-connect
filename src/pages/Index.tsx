@@ -23,7 +23,7 @@ const Index = () => {
         <HeroSection />
 
         {/* Institutional Introduction (Quick Summary) */}
-        <section className="py-24">
+        <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <motion.div
@@ -72,7 +72,7 @@ const Index = () => {
         <GalleryPreview />
 
         {/* Teachers Highlight (New on Home) */}
-        <section className="py-24 bg-background overflow-hidden">
+        <section className="py-12 md:py-24 bg-background overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
