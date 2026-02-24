@@ -47,7 +47,7 @@ const Index = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-muted rounded-2xl p-8 flex flex-col justify-center items-center text-center">
                   <GraduationCap size={40} className="text-primary mb-4" />
-                  <div className="text-3xl font-bold">100%</div>
+                  <div className="text-xl md:text-2xl font-bold whitespace-nowrap">ACIMA DE 90%</div>
                   <div className="text-sm text-muted-foreground font-semibold uppercase">{t("home_stat_approval_label")}</div>
                 </div>
                 <div className="bg-primary text-primary-foreground rounded-2xl p-8 flex flex-col justify-center items-center text-center shadow-lg shadow-primary/20">

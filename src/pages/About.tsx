@@ -18,11 +18,10 @@ const About = () => {
     const admin = [
         { role: t("about_admin_role_dg"), name: t("about_admin_name_dg"), image: "/staff/dg.jpg" },
         { role: t("about_admin_role_dag"), name: t("about_admin_name_dag"), image: "/staff/dag.jpg" },
-        { role: t("about_admin_role_dci"), name: t("about_admin_name_dci"), image: "/staff/dci.jpg" },
+        { role: t("about_admin_role_gestor"), name: t("about_admin_name_gestor"), image: "/staff/gestor.jpg" },
         { role: t("about_admin_role_dp_sne"), name: t("about_admin_name_dp_sne"), image: "/staff/dp_sne.jpg" },
         { role: t("about_admin_role_dp_cam"), name: t("about_admin_name_dp_cam"), image: "/staff/dp_cam.jpg" },
-        { role: t("about_admin_role_coord"), name: t("about_admin_name_coord"), image: "/staff/coord.jpg" },
-        { role: t("about_admin_role_gestor"), name: t("about_admin_name_gestor"), image: "/staff/gestor.jpg" },
+        { role: t("about_admin_role_dci"), name: t("about_admin_name_dci"), image: "/staff/dci.jpg" },
     ];
 
     return (

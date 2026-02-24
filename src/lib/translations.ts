@@ -20,7 +20,7 @@ export const translationData = {
   academics_creche_title: { pt: "Creche & Jardim", en: "Creche & Kindergarten" },
   academics_creche_info: { pt: "Segurança e Carinho", en: "Safety and Care" },
   academics_creche_desc: { pt: "Um ambiente lúdico e seguro focado no desenvolvimento psicomotor e social dos mais pequenos.", en: "A playful and safe environment focused on the psychomotor and social development of the little ones." },
-  academics_hybrid_title: { pt: "Nacional Híbrido", en: "Hybrid National" },
+  academics_hybrid_title: { pt: "Ensino primário do SNE (1ª à 6ª Classe)", en: "Primary Education SNE (Grade 1-6)" },
   academics_hybrid_desc: { pt: "O melhor dos dois mundos: o rigor do currículo nacional com a integração das metodologias Cambridge.", en: "The best of both worlds: the rigor of the national curriculum with the integration of Cambridge methodologies." },
   academics_national_title: { pt: "Ensino Nacional", en: "National Education" },
   academics_national_desc: { pt: "Formação integral baseada no Sistema Nacional de Educação, preparando para os exames nacionais com excelência.", en: "Comprehensive education based on the National Education System, preparing for national exams with excellence." },
@@ -39,8 +39,8 @@ export const translationData = {
     en: "Colégio enko Sekeleka – From Kindergarten to Secondary with International Standards",
   },
   hero_subtitle: {
-    pt: "Formação de excelência em Vilankulo através dos sistemas Nacional e Cambridge International.",
-    en: "Excellence in education in Vilankulo through both National and Cambridge International systems.",
+    pt: "Formação de excelência em Vilankulo através do Sistema Nacional de Educação e Cambridge.",
+    en: "Excellence in education in Vilankulo through both National and Cambridge systems.",
   },
   hero_cta_enroll: { pt: "Iniciar Inscrição", en: "Start Enrollment" },
   hero_cta_whatsapp: { pt: "Agendar Visita", en: "Schedule Visit" },
@@ -69,19 +69,19 @@ export const translationData = {
 
   about_admin_title: { pt: "Estrutura Administrativa", en: "Administrative Structure" },
   about_admin_role_dg: { pt: "Directora Geral", en: "General Director" },
-  about_admin_name_dg: { pt: "Suzana Rita Jeremias", en: "Suzana Rita Jeremias" },
+  about_admin_name_dg: { pt: "Susana Rita Jeremias", en: "Susana Rita Jeremias" },
   about_admin_role_dag: { pt: "Directora Adjunta", en: "Deputy Director" },
-  about_admin_name_dag: { pt: "Maria Constancia Nhalivilo", en: "Maria Constancia Nhalivilo" },
+  about_admin_name_dag: { pt: "Maria Constância Afonso Nhalivilo", en: "Maria Constância Afonso Nhalivilo" },
   about_admin_role_dci: { pt: "Directora Pedagógica do Centro Infantil", en: "Child Center Pedagogical Director" },
   about_admin_name_dci: { pt: "Catarina Leonardo", en: "Catarina Leonardo" },
-  about_admin_role_dp_sne: { pt: "Director Pedagógico SNE", en: "Pedagogical Director SNE" },
-  about_admin_name_dp_sne: { pt: "Lucas Zacarias Vilanculo", en: "Lucas Zacarias Vilanculo" },
-  about_admin_role_dp_cam: { pt: "Director Pedagógico Cambridge", en: "Pedagogical Director Cambridge" },
-  about_admin_name_dp_cam: { pt: "Duncan Tafara Nheta", en: "Duncan Tafara Nheta" },
+  about_admin_role_dp_sne: { pt: "Dir. Pedagógico do SNE", en: "Pedagogical Director SNE" },
+  about_admin_name_dp_sne: { pt: "Lucas", en: "Lucas" },
+  about_admin_role_dp_cam: { pt: "Dir Pedagógico Ensino Cambridge", en: "Pedagogical Director Cambridge" },
+  about_admin_name_dp_cam: { pt: "Duncan", en: "Duncan" },
   about_admin_role_coord: { pt: "Coordenadora Secundário Geral", en: "General Secondary Coordinator" },
   about_admin_name_coord: { pt: "Harfa Mahomed Hanif", en: "Harfa Mahomed Hanif" },
-  about_admin_role_gestor: { pt: "Gestor Administrativo", en: "Administrative Manager" },
-  about_admin_name_gestor: { pt: "Mussa Fraudino Ibraimo", en: "Mussa Fraudino Ibraimo" },
+  about_admin_role_gestor: { pt: "Responsável Administrativo", en: "Administrative Manager" },
+  about_admin_name_gestor: { pt: "Mussá", en: "Mussá" },
 
   about_partners_title: { pt: "Parcerias e Comunidade", en: "Partnerships & Community" },
   about_partners_desc: {
@@ -198,7 +198,7 @@ export const translationData = {
 
   // CTA Section
   cta_title: { pt: "Prepare o Futuro do seu Educando Hoje", en: "Prepare Your Child's Future Today" },
-  cta_subtitle: { pt: "Inscrições abertas para o Sistema Nacional e Cambridge International.", en: "Enrollment open for both National and Cambridge International systems." },
+  cta_subtitle: { pt: "Inscrições abertas para o Sistema Nacional de Educação e Cambridge.", en: "Enrollment open for both National and Cambridge systems." },
   cta_enroll: { pt: "Iniciar Candidatura", en: "Start Application" },
   cta_whatsapp: { pt: "Falar com Secretaria", en: "Talk to Office" },
 
