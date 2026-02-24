@@ -13,7 +13,7 @@ export const translationData = {
 
   // Academics Dropdown / Submenu
   nav_sub_creche: { pt: "Creche & Jardim de Infância", en: "Creche & Kindergarten" },
-  nav_sub_hybrid: { pt: "Ensino Nacional Híbrido", en: "Hybrid National Education" },
+  nav_sub_hybrid: { pt: "Ensino Primário do SNE", en: "Primary Education (SNE)" },
   nav_sub_national: { pt: "Ensino Nacional Geral", en: "General National Education" },
   nav_sub_cambridge: { pt: "Currículo Cambridge", en: "Cambridge Curriculum" },
   academics_title: { pt: "Programas Académicos", en: "Academic Programs" },
@@ -30,7 +30,7 @@ export const translationData = {
   academics_cambridge_focus_desc: { pt: "Preparamos os nossos alunos para serem cidadãos do mundo, com foco em competências analíticas e domínio perfeito da língua inglesa.", en: "We prepare our students to be citizens of the world, focusing on analytical skills and perfect mastery of the English language." },
   academics_thinking_process_title: { pt: "Processo de Pensamento", en: "Thinking Process" },
   academics_thinking_process_desc: { pt: "Desenvolvemos a capacidade de análise e resolução de problemas complexos.", en: "We develop the ability to analyze and solve complex problems." },
-  academics_active_learning_title: { pt: "Aprendizagem Ativa", en: "Active Learning" },
+  academics_active_learning_title: { pt: "Aprendizagem Activa", en: "Active Learning" },
   academics_active_learning_desc: { pt: "O aluno é o centro do processo, construindo conhecimento através da prática.", en: "The student is the center of the process, building knowledge through practice." },
 
   // Hero
@@ -55,7 +55,7 @@ export const translationData = {
 
   about_history_title: { pt: "A Nossa História", en: "Our History" },
   about_history_2016_title: { pt: "2016 – Fundação", en: "2016 – Foundation" },
-  about_history_2016_desc: { pt: "Início com o Centro Infantil Pequeno, focado nos primeiros anos de vida.", en: "Started with the 'Pequeno' Child Center, focused on the early years." },
+  about_history_2016_desc: { pt: "Início com o Centro Infantil O Pequeno Castelo, focado nos primeiros anos de vida.", en: "Started with the 'O Pequeno Castelo' Child Center, focused on the early years." },
   about_history_2017_title: { pt: "2017 – Expansão Académica", en: "2017 – Academic Expansion" },
   about_history_2017_desc: {
     pt: "Introdução do Ensino Primário (SNE) e início do Ensino Secundário Cambridge, marcando a nossa internacionalização.",
@@ -63,7 +63,7 @@ export const translationData = {
   },
   about_history_2020_title: { pt: "2020 – Consolidação", en: "2020 – Consolidation" },
   about_history_2020_desc: {
-    pt: "Introdução do Ensino Secundário Geral do Sistema Nacional, oferecendo um percurso completo.",
+    pt: "Introdução do Ensino Secundário Geral do Sistema Nacional de Educação, oferecendo um percurso completo.",
     en: "Introduction of General Secondary Education from the National System, offering a complete academic path."
   },
 
@@ -72,6 +72,8 @@ export const translationData = {
   about_admin_name_dg: { pt: "Suzana Rita Jeremias", en: "Suzana Rita Jeremias" },
   about_admin_role_dag: { pt: "Directora Adjunta", en: "Deputy Director" },
   about_admin_name_dag: { pt: "Maria Constancia Nhalivilo", en: "Maria Constancia Nhalivilo" },
+  about_admin_role_dci: { pt: "Directora Pedagógica do Centro Infantil", en: "Child Center Pedagogical Director" },
+  about_admin_name_dci: { pt: "Catarina Leonardo", en: "Catarina Leonardo" },
   about_admin_role_dp_sne: { pt: "Director Pedagógico SNE", en: "Pedagogical Director SNE" },
   about_admin_name_dp_sne: { pt: "Lucas Zacarias Vilanculo", en: "Lucas Zacarias Vilanculo" },
   about_admin_role_dp_cam: { pt: "Director Pedagógico Cambridge", en: "Pedagogical Director Cambridge" },
@@ -97,7 +99,7 @@ export const translationData = {
     en: "Playful and safe environment. Introduction to English from age 3 and various extracurricular activities."
   },
 
-  academics_hybrid_title: { pt: "Ensino Nacional Híbrido (1ª à 6ª Classe)", en: "Hybrid National Education (Grade 1–6)" },
+  academics_hybrid_title: { pt: "Ensino Primário do SNE (1ª à 6ª Classe)", en: "Primary Education SNE (Grade 1–6)" },
   academics_hybrid_desc: {
     pt: "Base sólida no Sistema Nacional (SNE) com integração progressiva de programas Cambridge e formação bilingue.",
     en: "Solid foundation in the National System (SNE) with progressive integration of Cambridge programs and bilingual training."
@@ -261,7 +263,7 @@ export const translationData = {
 
   // Enrollment (segmented program names)
   enroll_program_creche: { pt: "Creche / Jardim de Infância", en: "Creche / Kindergarten" },
-  enroll_program_primary: { pt: "Ensino Nacional Híbrido (1ª-6ª)", en: "National Hybrid (1st-6th)" },
+  enroll_program_primary: { pt: "Ensino Primário do SNE (1ª-6ª)", en: "Primary Education SNE (1st-6th)" },
   enroll_program_secondary: { pt: "Ensino Nacional Geral (7ª-12ª)", en: "General National (7th-12th)" },
   enroll_program_cambridge: { pt: "Ensino Cambridge International", en: "Cambridge International" },
 
@@ -318,7 +320,7 @@ export const translationData = {
   school_life_activity_sports: { pt: "Desporto & Educação Física", en: "Sports & Physical Education" },
   school_life_activity_taekwondo: { pt: "Taekwondo", en: "Taekwondo" },
   school_life_activity_chess: { pt: "Xadrez", en: "Chess" },
-  school_life_activity_english: { pt: "Clube de Inglês", en: "English Club" },
+  school_life_activity_english: { pt: "Clube de Leitura (Português e Inglês)", en: "Reading Club (Portuguese and English)" },
   school_life_activity_it: { pt: "Informática & Robótica", en: "IT & Robotics" },
   school_life_activity_music: { pt: "Música & Artes", en: "Music & Arts" },
 } as const;

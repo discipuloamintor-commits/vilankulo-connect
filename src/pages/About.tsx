@@ -16,12 +16,13 @@ const About = () => {
     ];
 
     const admin = [
-        { role: t("about_admin_role_dg"), name: t("about_admin_name_dg") },
-        { role: t("about_admin_role_dag"), name: t("about_admin_name_dag") },
-        { role: t("about_admin_role_dp_sne"), name: t("about_admin_name_dp_sne") },
-        { role: t("about_admin_role_dp_cam"), name: t("about_admin_name_dp_cam") },
-        { role: t("about_admin_role_coord"), name: t("about_admin_name_coord") },
-        { role: t("about_admin_role_gestor"), name: t("about_admin_name_gestor") },
+        { role: t("about_admin_role_dg"), name: t("about_admin_name_dg"), image: "/staff/dg.jpg" },
+        { role: t("about_admin_role_dag"), name: t("about_admin_name_dag"), image: "/staff/dag.jpg" },
+        { role: t("about_admin_role_dci"), name: t("about_admin_name_dci"), image: "/staff/dci.jpg" },
+        { role: t("about_admin_role_dp_sne"), name: t("about_admin_name_dp_sne"), image: "/staff/dp_sne.jpg" },
+        { role: t("about_admin_role_dp_cam"), name: t("about_admin_name_dp_cam"), image: "/staff/dp_cam.jpg" },
+        { role: t("about_admin_role_coord"), name: t("about_admin_name_coord"), image: "/staff/coord.jpg" },
+        { role: t("about_admin_role_gestor"), name: t("about_admin_name_gestor"), image: "/staff/gestor.jpg" },
     ];
 
     return (
@@ -109,9 +110,18 @@ const About = () => {
                         </div>
                         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                             {admin.map((member, i) => (
-                                <div key={i} className="bg-card p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-all hover:border-primary/30">
-                                    <p className="text-xs font-bold text-primary uppercase tracking-widest mb-1">{member.role}</p>
-                                    <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
+                                <div key={i} className="flex items-center gap-4 bg-card p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-all hover:border-primary/30">
+                                    <div className="w-16 h-16 rounded-full overflow-hidden bg-muted/50 border-2 border-primary/20 flex-shrink-0 flex justify-center items-center">
+                                        {member.image ? (
+                                            <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                                        ) : (
+                                            <Users className="w-8 h-8 text-muted-foreground/50" />
+                                        )}
+                                    </div>
+                                    <div>
+                                        <p className="text-[10px] md:text-xs font-bold text-primary uppercase tracking-widest mb-1">{member.role}</p>
+                                        <h3 className="text-base md:text-lg font-bold text-foreground leading-tight">{member.name}</h3>
+                                    </div>
                                 </div>
                             ))}
                         </div>
