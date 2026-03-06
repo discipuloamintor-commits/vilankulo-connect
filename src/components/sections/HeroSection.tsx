@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import heroImg from "@/assets/gallery/institucional-logo-alunos-colegio-ekosekeleka.jpg";
+import heroImg from "@/assets/gallery/novo-fundo-hero.jpg.jpeg";
 
 const HeroSection = () => {
   const { t } = useLanguage();

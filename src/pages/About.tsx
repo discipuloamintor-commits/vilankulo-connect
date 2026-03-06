@@ -2,8 +2,9 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import { MapPin, History, Users, Handshake } from "lucide-react";
+import { MapPin, History, Users, Handshake, Utensils } from "lucide-react";
 import schoolFront from "@/assets/gallery/school-front.jpg";
+import canteenImg from "@/assets/gallery/cantina.jpj.jpeg";
 import SEO from "@/components/SEO";
 
 const About = () => {
@@ -123,6 +124,35 @@ const About = () => {
                                     </div>
                                 </div>
                             ))}
+                        </div>
+                    </section>
+
+                    {/* Canteen */}
+                    <section className="mb-12 md:mb-24">
+                        <div className="bg-muted/20 rounded-[3rem] p-8 md:p-14 border border-border/50 shadow-sm overflow-hidden relative">
+                            <div className="grid lg:grid-cols-2 gap-12 items-center">
+                                <div className="order-2 lg:order-1 h-[450px] rounded-[2.5rem] overflow-hidden shadow-xl border border-primary/10 group relative">
+                                    <img
+                                        src={canteenImg}
+                                        alt="Cantina Escolar do Colégio enko Sekeleka"
+                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                    />
+                                    <div className="absolute inset-0 bg-black/5 transition-opacity group-hover:bg-transparent pointer-events-none"></div>
+                                </div>
+                                <div className="order-1 lg:order-2 relative z-10">
+                                    <div className="flex items-center gap-4 mb-6">
+                                        <div className="bg-amber-500 p-3 rounded-2xl text-white shadow-lg">
+                                            <Utensils size={32} />
+                                        </div>
+                                        <h2 className="text-3xl font-bold">{t("about_canteen_title")}</h2>
+                                    </div>
+                                    <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+                                        <p>{t("about_canteen_desc_1")}</p>
+                                        <p>{t("about_canteen_desc_2")}</p>
+                                        <p className="font-medium text-foreground">{t("about_canteen_desc_3")}</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
 

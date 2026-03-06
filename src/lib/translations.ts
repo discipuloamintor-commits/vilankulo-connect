@@ -89,6 +89,20 @@ export const translationData = {
     en: "We take special pride in our relationship with the local community and Sasol employees, reinforcing a unique environment of diversity and multiculturalism in Vilankulo."
   },
 
+  about_canteen_title: { pt: "Cantina Escolar", en: "School Canteen" },
+  about_canteen_desc_1: {
+    pt: "A cantina escolar do Colégio Enko Sekeleka é um espaço organizado, higiénico e acolhedor, criado para garantir o bem-estar e a boa alimentação dos alunos ao longo do dia lectivo.",
+    en: "The Enko Sekeleka School canteen is an organized, hygienic, and welcoming space, created to ensure the well-being and good nutrition of students throughout the school day."
+  },
+  about_canteen_desc_2: {
+    pt: "No que diz respeito à alimentação, disponibiliza refeições saudáveis e equilibradas, incluindo sopas nutritivas, pratos cozidos e fritos preparados com qualidade e higiene, incentivando hábitos alimentares saudáveis.",
+    en: "Regarding food, it provides healthy and balanced meals, including nutritious soups, boiled and fried dishes prepared with quality and hygiene, encouraging healthy eating habits."
+  },
+  about_canteen_desc_3: {
+    pt: "A cantina reforça, assim, o compromisso do Colégio com a saúde, energia e bom desempenho académico dos seus estudantes.",
+    en: "The canteen thus reinforces the School's commitment to the health, energy, and good academic performance of its students."
+  },
+
   // Academics (Ensino)
   academics_title: { pt: "Oferta Académica", en: "Academic Offering" },
 
